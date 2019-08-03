@@ -26,6 +26,13 @@ input[type=text] {
   transition: width 0.4s ease-in-out;
 }
 
+.link{
+    color: black;
+}
+.link:hover{
+    color: lightblue;
+    text-decoration: none;
+}
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
   width: 100%;
@@ -138,13 +145,13 @@ input[type=text]:focus {
                                     <strong><text style="color: white; font-size: 20px;"> Asad</text></strong>
                                 </div>
                                 <div class="col-md-1">
-                                    <button class="btn btn-default">Home</button>
+                                    <button class="btn btn-default"><a class="link" href="Assignment1.php">Home</a></button>
                                 </div>
                                 <div class="col-md-1">
-                                    <button class="btn btn-default">Create</button>
+                                    <button class="btn btn-default"><a class="link" href="Assignment1.php">Create</a></button>
                                 </div>
                                 <div class="col-md-1">
-                                    <button class="btn btn-default">Logout</button>
+                                    <button class="btn btn-default"><a class="link" href="Assignment1.php">Logout</a></button>
                                 </div>
                                 
                             
@@ -232,7 +239,7 @@ input[type=text]:focus {
                                         <section class="post">
                                             <h2><a href="https://www.google.com">Forth Post</a></h2>
                                             <p>The history of the Islamic Republic of Pakistan began on 14 August 1947 when the country became an independent nation in the form of Dominion of Pakistan within the British Commonwealth as the result of Pakistan Movement and the partition of India.</p>
-                                        <iframe width="500" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+                                        <iframe width="500" height="345" src="https://www.youtube.com/embed/vgucHod-ycY">
                                         </iframe>
                                         </section>
                                     </div>
