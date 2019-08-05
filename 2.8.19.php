@@ -164,11 +164,11 @@ input[type=text]:focus {
                                 <button>     <img class="img-profile" src="d.png" alt="Avatar" style="width:37px">
                                     <strong> <text style="color: black; font-size: 20px;"> Events&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </text> </strong></button>
                               <button>       <img class="img-profile" src="d.png" alt="Avatar" style="width:37px">
-                                    <strong> <text style="color: black; font-size: 20px;"> Weather &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </text> </strong></button>
+                                    <strong> <text style="color: black; font-size: 20px;"> Weather &nbsp;&nbsp; </text> </strong></button>
                                <button>      <img class="img-profile" src="d.png" alt="Avatar" style="width:37px">
                                     <strong> <text style="color: black; font-size: 20px;"> Games &nbsp;&nbsp;&nbsp;</text> </strong></button>
                              <button>         <img class="img-profile" src="d.png" alt="Avatar" style="width:37px">
-                                    <strong> <text style="color: black; font-size: 20px;"> Memories &nbsp;&nbsp;&nbsp;&nbsp;&nbsp</text> </strong></button>
+                                    <strong> <text style="color: black; font-size: 20px;"> Memories &nbsp;</text> </strong></button>
                                  <button>     <img class="img-profile" src="d.png" alt="Avatar" style="width:37px">
                                     <strong> <text style="color: black; font-size: 20px;"> Discover &nbsp;&nbsp;</text> </strong></button>
                                 <button>      <img class="img-profile" src="d.png" alt="Avatar" style="width:37px">
