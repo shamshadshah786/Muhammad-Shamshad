@@ -239,7 +239,7 @@ input[type=text]:focus {
                                         <section class="post">
                                             <h2><a href="https://www.google.com">Forth Post</a></h2>
                                             <p>The history of the Islamic Republic of Pakistan began on 14 August 1947 when the country became an independent nation in the form of Dominion of Pakistan within the British Commonwealth as the result of Pakistan Movement and the partition of India.</p>
-                                        <iframe width="496" height="341" src="https://www.youtube.com/embed/vgucHod-ycY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe width="496" height="341" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         </section>
                                     </div>
                                     </div>
