@@ -196,89 +196,40 @@ input[type=text]:focus {
                                         
                                         
                                     </div>
-                                    <div class="row">
-                                    <table class="table table-hover">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>Post</th>
-                                                                <th>Post</th>
-                                                                <th>Post</th>
-                                                              </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                              <tr>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                              </tr>
-                                                              <tr>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                              </tr>
-                                                              <tr>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                              </tr>
-                                                            </tbody>
-                                    </table>
+                                      <div class="row">
+                                  
+  
+                                                <div class="card">
+                                                  <h2>First Post</h2>
+                                                  <h5>Title description, Dec 7, 2017</h5>
+                                                  <img class="col-md-4" src="1.jpg" alt="Avatar">
+                                                  <p>History of Pakistan</p>
+                                                  <p>The history of the Islamic Republic of Pakistan began on 14 August 1947 when the country became an independent nation in the form of Dominion of Pakistan within the British Commonwealth as the result of Pakistan Movement and the partition of India.</p>
+                                                </div>
+                                                <div class="card">
+                                                  <h2>Second Post</h2>
+                                                  <h5>Title description, Sep 2, 2017</h5>
+                                                  <img class="col-md-4" src="2.jpeg" alt="Avatar">
+                                                  <p>History of Pakistan and India</p>
+                                                  <p>The history of the Islamic Republic of Pakistan began on 14 August 1947 when the country became an independent nation in the form of Dominion of Pakistan within the British Commonwealth as the result of Pakistan Movement and the partition of India.</p>
+                                                </div>
+  
                                     </div>
                                     <div class="row">
-                                    <table class="table table-hover">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>Post</th>
-                                                                <th>Post</th>
-                                                                <th>Post</th>
-                                                              </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                              <tr>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                              </tr>
-                                                              <tr>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                              </tr>
-                                                              <tr>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                              </tr>
-                                                            </tbody>
-                                    </table>
+                                    <div id="posts">
+                                        <section class="post">
+                                            <h2><a href="https://www.facebook.com">Third Post</a></h2>
+                                            <p>The history of the Islamic Republic of Pakistan began on 14 August 1947 when the country became an independent nation in the form of Dominion of Pakistan within the British Commonwealth as the result of Pakistan Movement and the partition of India.</p>
+                                        </section>
+                                        <section class="post">
+                                            <h2><a href="https://www.google.com">Forth Post</a></h2>
+                                            <p>The history of the Islamic Republic of Pakistan began on 14 August 1947 when the country became an independent nation in the form of Dominion of Pakistan within the British Commonwealth as the result of Pakistan Movement and the partition of India.</p>
+                                        <iframe width="496" height="341" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </section>
+                                    </div>
                                     </div>
                                     <div class="row">
-                                    <table class="table table-hover">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>Post</th>
-                                                                <th>Post</th>
-                                                                <th>Post</th>
-                                                              </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                              <tr>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                              </tr>
-                                                              <tr>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                              </tr>
-                                                              <tr>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                                <td>Post</td>
-                                                              </tr>
-                                                            </tbody>
-                                    </table>
+                                    
                                     </div>
                                 </div>
                                 
@@ -286,7 +237,7 @@ input[type=text]:focus {
                             <div class="col-md-3">
                               <div class="btn-group-vertical">
                                     <button type="button" class="btn btn-primary">Online Friends</button>
-                                    <span>ADs</span><img src="e.jpg" alt="Avatar" style="width:232px">
+                                    <span>ADs</span><img src="Ad1.jpg" alt="Avatar" style="width:232px">
                                 </div>  
                                 
                                 
@@ -323,22 +274,22 @@ input[type=text]:focus {
                                     </ul>
                             <div class="col-md-3"></div>
                         </div>
-                        <div class="fb-page" 
-                    data-href="https://www.facebook.com/facebook"
-  data-width="380" 
-  data-hide-cover="false"
-  data-show-facepile="false"></div>
+                        
 
                     </div>
                 
                 </div>
             
-        
         </div>
+
     </body>
 
+<?php
+
+print_r($_GET);
 
 
-
+?>
 
 </html>
+
