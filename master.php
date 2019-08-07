@@ -14,10 +14,14 @@ and open the template in the editor.
         include "header.php";
         ?>
         <?php
+        include "left.php";
+        ?>
+        <?php
         include "Middle.php";
         ?>
         <?php
-        include "Footer.php";
+        include "right.php";
         ?>
+       
     </body>
 </html>
