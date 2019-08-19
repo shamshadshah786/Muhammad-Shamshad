@@ -19,6 +19,7 @@ and open the template in the editor.
         
         $size= filesize("asad.txt");
         $text= fread($file,$size);
+        
         echo $text;
         echo $size;
         ?>
