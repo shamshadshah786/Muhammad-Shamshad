@@ -300,12 +300,6 @@ input[type=text]:focus {
 
     </body>
 
-<?php
-
-print_r($_GET);
-
-
-?>
 
 </html>
 

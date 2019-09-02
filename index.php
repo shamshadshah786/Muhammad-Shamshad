@@ -112,7 +112,7 @@ and open the template in the editor.
     
         
    
-        <form action="Assignment1.php" method="get" name="registration" onsubmit="return validateform()" >
+        <form action="db-conecct.php" method="post" name="registration" onsubmit="return validateform()" >
             
             
             
@@ -125,7 +125,7 @@ and open the template in the editor.
           <br>
           <b>Last name:</b> <input type = "text" name = "last_name"  placeholder="Your Last name"/>
           <br>
-          <b>Contact:</b> <input type="text" name="contact" placeholder="Your Contact"/>
+          <b>Contact:</b> <input type="text" name="email" placeholder="Your Contact"/>
          <br>
          <b>User ID :</b> <input type = "text" name = "user_id" placeholder="your user id for login" />
          <br>
