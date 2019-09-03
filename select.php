@@ -16,40 +16,20 @@ and open the template in the editor.
         <title>Facebook Assignment 1</title>
     </head>
     <body>
-    <?php
-    
-$db=mysqli_connect("localhost","root","","asad");
+        <?php
+        $db=mysqli_connect("localhost","root","","asad");
     if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
 } 
 echo "Connected successfully";
-
-
-$sql="INSERT INTO `asad`(`Id`, `first_name`, `last_name`, `email`) VALUES (NULL,'".$_REQUEST['first_name']."','".$_REQUEST['last_name']."','".$_REQUEST['email']."');";
-if(mysqli_query($db, $sql)){
-    echo "Records added successfully.";
-} else{
-    echo "ERROR: Could not able to execute $sql. " . mysqli_error($db);
+$sql="Select*from asad";
+$result= mysqli_query($db, $sql);
+while($row= mysqli_fetch_assoc($result)){
+    
+    echo "<br> id: ". $row["Id"]. " - Name: ". $row["first_name"]. " " . $row["last_name"] . "  " . $row["email"] . "<br>";
+    
+    
 }
- 
-?>
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        ?>
     </body>
 </html>
-
-
-
