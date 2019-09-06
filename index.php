@@ -6,81 +6,80 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title> M.Shamshad </title>
+        <meta charset = "utf-8">
+      <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel = "stylesheet">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Index Page</title>
         
        
         <script type="text/javascript">
         
-          function validateform() {
-            var first=document.registration.first_name.value;
-            var second=document.registration.middle_name.value;
-            var third=document.registration.last_name.value;
-            var forth=document.registration.contact.value;
-            var fifth=document.registration.user_id.value;
-            var six=document.registration.password.value;
-            var seven=document.registration.description.value;
-            var eight=document.registration.address.value;
-            
+          function validateForm() {
+            var first=document.forms["asad"].["first_name"].value;
+            var second=document.forms["asad"].["middle_name"].value;
+            var third=document.forms["asad"].["last_name"].value;
+            var forth=document.forms["asad"].["contact"].value;
+            var fifth=document.forms["asad"].["user_id"].value;
+            var six=document.forms["asad"].["password"].value;
+            var seven=document.forms["asad"].["description"].value;
+            var eight=document.forms["asad"].["address"].value;
+   
         
-        
-        
-        
-        
-        
-        
-        
-        if (first==null || first==""){  
+        if (first=null || first=""){  
             alert("Name can't be blank");  
-         document.registration.first_name.focus(); 
+         document.asad.first_name.focus(); 
          return false;
      }
          
-        if (second==null || second==""){
+        if (second=null || second=""){
             alert("Enter Second name");
-            document.registration.middle_name.focus();
+            document.asad.middle_name.focus();
           
          
         return false;
     } 
-        if (third==null || third==""){
+        if (third=null || third=""){
             alert("Enter Last name");
-            document.registration.last_name.focus();
+            document.asad.last_name.focus();
           
          
         return false;
     } 
-        if (forth==null || forth==""){
+        if (forth=null || forth=""){
             alert("Enter Contact number");
-            document.registration.contact.focus();
+            document.asad.contact.focus();
           
          
         return false;
     } 
-        if (fifth==null || fifth==""){
+        if (fifth=null || fifth=""){
             alert("Enter User name");
-            document.registration.user_id.focus();
+            document.asad.user_id.focus();
           
          
         return false;
     } 
-        if (six==null || six==""){
+        if (six=null || six=""){
             alert("Enter Password");
-            document.registration.password.focus();
+            document.asad.password.focus();
           
          
         return false;
     } 
-        if (seven==null || seven==""){
+        if (seven=null || seven=""){
             alert("Enter Description");
-            document.registration.description.focus();
+            document.asad.description.focus();
           
          
         return false;
     } 
-        if (eight==null || eight==""){
+        if (eight=null || eight=""){
             alert("Enter address");
-            document.registration.address.focus();
+            document.asad.address.focus();
           
          
         return false;
@@ -100,8 +99,8 @@ and open the template in the editor.
             
             
             body{
-                background-color: lightblue;
-                color: red;
+                background-color: white;
+                
             } 
             
             
@@ -112,25 +111,41 @@ and open the template in the editor.
     
         
    
-        <form action="db-conecct.php" method="get" name="registration" onsubmit="return validateform()" >
+        <form role="form" class="form-horizental" action="db-conecct.php" method="get" name="asad" onsubmit="return validateForm()" >
             
             
             
             
             
+            <div class="form-group">
+                <label class="col-md-1">First name:</label>
+          <div class="col-md-3">
+          <input type = "text" name = "first_name" class="form-control" placeholder="Your First name" />
+          </div>
+                <label class="col-md-1">Middle:</label>
+          <div class="col-md-3">
+          <input type="text" name="middle_name" class="form-control" placeholder="Your Middle name"/>
+          </div>
+                <label class="col-md-1">Last name:</label>
+          <div class="col-md-3">
+          <input type = "text" name = "last_name"  class="form-control" placeholder="Your Last name"/>
+          </div>  
+          </div>
             
-          <b>First name:</b> <input type = "text" name = "first_name" placeholder="Your First name" />
-          <br>
-          <b>Middle name:</b> <input type="text" name="middle_name" placeholder="Your Middle name"/>
-          <br>
-          <b>Last name:</b> <input type = "text" name = "last_name"  placeholder="Your Last name"/>
-          <br>
-          <b>Email:</b> <input type="text" name="email" placeholder="Email"/>
-         <br>
-         <b>User ID :</b> <input type = "text" name = "user_id" placeholder="your user id for login" />
-         <br>
-         <b>Password:</b> <input type = "password" name = "password" placeholder="**********" />
-         <br>
+            <div class="form-group">
+                <label class="col-md-1">Email:</label> 
+                <div class="col-md-3">
+                <input type="text" name="email" class="form-control" placeholder="Email"/>
+                </div>
+                <label class="col-md-1">User ID :</label> 
+                <div class="col-md-3">
+                <input type = "text" name = "user_id" class="form-control" placeholder="your user id for login" />
+                </div>
+                <label class="col-md-1">Password:</label>
+                <div class="col-md-3">
+                <input type = "password" name = "password" class="form-control" placeholder="**********" />
+                </div>
+            </div>
           <b>Address :</b> <textarea rows = "2" cols = "50" name = "description" placeholder="Enter Address Here...........">
             
                        </textarea>
