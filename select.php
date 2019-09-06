@@ -17,11 +17,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        $db=mysqli_connect("localhost","root","","asad");
-    if ($db->connect_error) {
-    die("Connection failed: " . $db->connect_error);
-} 
-echo "Connected successfully";
+        include 'connection.php';
 $sql="Select*from asad";
 $result= mysqli_query($db, $sql);
 while($row= mysqli_fetch_assoc($result)){
