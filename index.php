@@ -57,9 +57,8 @@ and open the template in the editor.
     </head>
     <body bgcolor="yellow" >  
         
-        
-                
-        <form action="2.8.19.php" method="get" name="registration" onsubmit="return validation()"> 
+      
+            <form action="" method="get" name="registration" onsubmit="return validation()"> 
             <table > 
                 
                 <tr> 
